@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root to: 'index#inicio'
   get "/inicio" => "index#inicio"
   
-  get '/login' to: 'devise/sessions#new'
+  #get '/login' to: 'devise/sessions#new'
   
   
   get "/dash" => "dashboard#dash"
